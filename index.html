@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Car Lane Game</title>
+</head>
+<body>
+    <div class="high-score">High Score: <span class="high-score-span">0</div>
+    <div class="start-menu">
+        <h3>Press Spacebar To Start</h3>
+        <p><strong>Instructions</strong></p>
+        <p>1. Prevent colliding with obstacles</p>
+        <p>2. Move Left and Right with arrow keys</p>
+        <p>3. Car Speed increases on every 10 score earned</p>
+        <p>4. Close Tab to End Game</p>
+    </div>
+    <div class="scoreboard">Score: <span class="score-span">0</span></div>
+    <div class="replay">Press Spacebar to Replay</div>
+    <canvas></canvas>
+    <script src="js/canvas.js"></script>
+    <script src="js/car.js"></script>    
+    <script src="js/obstacle.js"></script>
+</body>
+</html>
